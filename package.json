@@ -1,0 +1,18 @@
+{
+  "name": "auth-handler",
+  "version": "1.0.0",
+  "description": "Authentication Handler for town",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yash Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/npm-hosted/"
+  }
+}
