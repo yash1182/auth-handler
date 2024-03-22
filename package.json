@@ -13,6 +13,6 @@
     "jsonwebtoken": "^9.0.2"
   },
   "publishConfig": {
-    "registry": "http://localhost:8081/repository/npm-hosted/"
+    "registry": "https://localhost/nexus/repository/npm-hosted/"
   }
 }
