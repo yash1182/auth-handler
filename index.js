@@ -34,6 +34,7 @@ exports.useVerifyToken = function () {
     var token = req.headers.authorization.split(" ")[1];
     try {
       req.user = handler.decode(token);
+      req.token = token;
     } catch (err) {
       return res.status(402).json({
         success: false,
